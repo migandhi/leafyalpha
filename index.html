@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the alphabets in green leaves. This creative website showcases each letter of the alphabet formed with leaves.">
+  <meta name="keywords" content="alphabet, letters, green leaves, nature, creative">
+  <title>Alphabets in Green Leaves</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* The grid: Four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
+
+    /* Style the images inside the grid */
+    .column img {
+      opacity: 0.8;
+      cursor: pointer;
+      width: 100%;
+      height: auto;
+    }
+
+    .column img:hover {
+      opacity: 1;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* The expanding image container */
+    .container {
+      position: relative;
+      display: none;
+    }
+
+    /* Expanding image text */
+    #imgtext {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: white;
+      font-size: 20px;
+    }
+
+    /* Closable button inside the expanded image */
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+
+    /* Media queries for responsive design */
+    @media (max-width: 767px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    @media (max-width: 479px) {
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="text-align:center">
+      <h1>Alphabets in Green Leaves</h1>
+      <p>Right click open image in new tab to view full image</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- The four columns -->
+    <div class="row">
+  <div class="column">
+    <img src="AlphabetA.png" alt="A" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetB.png" alt="B" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetC.png" alt="C" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetD.png" alt="D" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="AlphabetE.png" alt="E" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetF.png" alt="F" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetG.png" alt="G" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetH.png" alt="H" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="AlphabetI.png" alt="I" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetJ.png" alt="J" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetK.png" alt="K" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetL.png" alt="L" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="AlphabetM.png" alt="M" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetN.png" alt="N" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetO.png" alt="O" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetP.png" alt="P" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="AlphabetQ.png" alt="Q" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetR.png" alt="R" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetS.png" alt="S" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetT.png" alt="T" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="AlphabetU.png" alt="U" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetV.png" alt="V" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetW.png" alt="W" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetX.png" alt="X" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="AlphabetY.png" alt="Y" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="AlphabetZ.png" alt="Z" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Alphabets in Green Leaves. All rights reserved.</p>
+  </footer>
+
+  <!-- Add this line if you want to include the image expansion functionality -->
+  <!-- <script src="image-expansion.js"></script> -->
+</body>
+</html>
